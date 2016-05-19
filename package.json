@@ -1,0 +1,24 @@
+{
+  "name": "gitabackbone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fogcity89/gitabackbone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fogcity89/gitabackbone/issues"
+  },
+  "homepage": "https://github.com/fogcity89/gitabackbone#readme",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "express": "^4.13.4"
+  }
+}
