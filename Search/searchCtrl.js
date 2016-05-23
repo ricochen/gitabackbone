@@ -21,7 +21,8 @@ angular.module('kirk', ['ngRoute']).controller('searchCtrl', function ($scope){
       console.log('Please try again');
     }
     for (var i = event.resultIndex; i < event.results.length; ++i) {
-      document.getElementsByClassName('speech').value += event.results[i][0].transcript;
+      console.log("inside loop");
+       document.getElementById('textarea').value += event.results[i][0].transcript;
     }
     console.log(event); // To see how the event object looks like
   };
