@@ -1,14 +1,14 @@
 
-var app = angular.module('');
+var app = angular.module('kirk');
 
 
 
 app.config(function($routeProvider, $httpProvider) {
   $routeProvider.when(
     '/', {
-      templateUrl: '',
-      controller: '',
-      controllerAs: ''
+      templateUrl: '/Search/searchTemplate.html',
+      controller: 'searchCtrl',
+      controllerAs: 'search'
     })
   
 });
