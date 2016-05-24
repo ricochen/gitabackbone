@@ -1,14 +1,16 @@
 var express = require('express');
 var app = express();
+var bodyParser = require('body-parser');
 
-var port = process.env.PORT || 3000;;
+var port = process.env.PORT || 3000;
 
-app.use(express.static(__dirname));
+app.use(express.static(__dirname + '/app'));
+app.use(bodyParser.json());
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
+app.post('/', function(req, res) {
+  console.log(req.body);
 });
 
 app.listen(port, function () {
-  console.log('Example app listening on port 3000!');
+  console.log('Listening on port 3000!');
 });
