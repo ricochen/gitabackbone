@@ -36,8 +36,9 @@ angular.module('app.speech', [])
       for (var i = event.resultIndex; i < event.results.length; ++i) {
         data.text += event.results[i][0].transcript;
       }
-      console.log(event); // To see the text in the event object
+      console.log(data.text); // To see the text
       recognition.stop();
+      console.log('speech ended');
       callback(data);
     };
   }
