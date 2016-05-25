@@ -8,7 +8,8 @@ angular.module('app', [
 .config(function($routeProvider) {
   $routeProvider
     .when('/', {
-      templateUrl: 'request/home.html',
+      templateUrl: 'index.html',
       controller: 'RequestController'
     })
+
 });
