@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/fogcity89/gitabackbone#readme",
   "dependencies": {
+    "axios": "^0.11.1",
     "body-parser": "^1.15.1",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "twitter": "^1.3.0"
   }
 }
