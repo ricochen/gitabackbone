@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fogcity89/gitabackbone.git"
+    "url": "git+https://github.com/ricochen/kirk.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fogcity89/gitabackbone/issues"
+    "url": "https://github.com/ricochen/kirk/issues"
   },
-  "homepage": "https://github.com/fogcity89/gitabackbone#readme",
+  "homepage": "https://github.com/ricochen/kirk#readme",
   "dependencies": {
     "axios": "^0.11.1",
     "body-parser": "^1.15.1",
