@@ -2,16 +2,20 @@
 <html ng-app="app">
   <head>
     <meta charset="UTF-8">
-    <title>Speech to Text</title>
+    <title>Kirk</title>
   </head>
-  <body ng-controller="RequestController">
-    <h1>Speech to Text</h1>
-    <div ng-bind-html="renderAPIdata()"></div>
+  <body>
+    <div ng-view></div>
+    <canvas id="waves"></canvas>
 
-
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
-    <script src= "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular-route.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/sine-waves/sine-waves.min.js"></script>
 
+    <script src="home/waves.js"></script>
     <script src="speech.js"></script>
     <script src="request/requestFactory.js"></script>
     <script src="request/request.js"></script>
