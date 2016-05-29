@@ -10,5 +10,5 @@ angular.module('app', [
     .when('/', {
       templateUrl: 'home/home.html',
       controller: 'RequestController'
-    })
+    });
 });

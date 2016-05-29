@@ -11,6 +11,6 @@ angular.module('app.requestFactory', [])
       method: 'POST',
       url: '/',
       data: data
-    })
+    });
   }
 });
