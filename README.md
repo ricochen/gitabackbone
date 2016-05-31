@@ -1,7 +1,7 @@
 # Kirk
 ### Siri's little brother
 
-![kirk](https://github.com/ricochen/kirk/blob/dev/app/assets/kirk.jpg)
+![kirk](https://github.com/ricochen/kirk/tree/master/app/assets/kirk.jpg)
 
 ### APIs & `keywords` to say:
 #####- Reddit: `reddit` + *subreddit*
