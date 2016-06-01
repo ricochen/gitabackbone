@@ -7,7 +7,7 @@ angular.module('app.request', [])
   jQuery('#waves').show();
   jQuery('body').addClass('bg');
   record();
-  setInterval(record, 5000);
+  setInterval(record, 10000);
 
   function record() {
     if (speech.checkRecognition()) {
