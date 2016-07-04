@@ -1,7 +1,7 @@
 # Kirk
 ### Siri's little brother
 
-[Kirk](http://kirk1.herokuapp.com/) is a search application that converts user speech into text, and retrieves data based on the content of the speech.
+[Kirk](https://kirk1.herokuapp.com/) is a search application that converts user speech into text, and retrieves data based on the content of the speech.
 
 ![kirk](https://github.com/ricochen/kirk/blob/master/app/assets/kirk.jpg)
 
