@@ -9,7 +9,6 @@
     "bower_components"
   ],
   "dependencies": {
-    "sine-waves": "^0.3.0",
-    "jquery": "^2.2.4"
+    "sine-waves": "^0.3.0"
   }
 }
